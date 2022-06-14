@@ -22,5 +22,8 @@ public class SampleGit {
 		WebElement btnLogin = driver.findElement(By.name("login"));
 		btnLogin.click();
 		
+		WebElement txtPassword1 = driver.findElement(By.id("pass"));
+		txtPassword.sendKeys("989898");
+		
 	}
 }
