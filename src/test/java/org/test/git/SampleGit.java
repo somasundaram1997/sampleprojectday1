@@ -22,8 +22,6 @@ public class SampleGit {
 		WebElement btnLogin = driver.findElement(By.name("login"));
 		btnLogin.click();
 		
-		WebElement btnLogin1 = driver.findElement(By.name("login"));
-		btnLogin.click();
 		
 		
 	}
